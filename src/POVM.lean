@@ -1,6 +1,8 @@
 import Complex_Hilbert_space
 
-variables (ℋ : Type) [complex_Hilbert_space ℋ]
+variables
+(ℋ : Type) [complex_Hilbert_space ℋ]
+(ι : Type) [decidable_eq ι]
 
 /--
 Positive operator-valued measure
