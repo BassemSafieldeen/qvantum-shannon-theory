@@ -11,4 +11,4 @@ class quantum_state (ρ : ℋ →ₗ[ℂ] ℋ) :=
 (trace_one   : 1=1)
 (pos_semidef : 2=2)
 
-def tr (ρ : ℋ →ₗ[ℂ] ℋ) [quantum_state ρ] : ℝ := sorry
+def tr (ρ : ℋ →ₗ[ℂ] ℋ) [quantum_state ρ] : ℝ := 1
