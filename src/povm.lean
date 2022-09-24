@@ -1,4 +1,4 @@
-import Complex_Hilbert_space
+import complex_Hilbert_space
 
 variables
 (ℋ : Type) [complex_Hilbert_space ℋ]
