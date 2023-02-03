@@ -1,8 +1,8 @@
 [package]
 name = "qvantum-shannon-theory"
 version = "0.1"
-lean_version = "leanprover-community/lean:3.42.1"
+lean_version = "leanprover-community/lean:3.50.3"
 path = "src"
 
 [dependencies]
-mathlib = {git = "https://github.com/leanprover-community/mathlib", rev = "cfedf1d5b51096eccff25b7dd9ea8c86f4c402c8"}
+mathlib = {git = "https://github.com/leanprover-community/mathlib", rev = "84dc0bd6619acaea625086d6f53cb35cdd554219"}
